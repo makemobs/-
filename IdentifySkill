@@ -1,0 +1,6 @@
+Skills:
+  IdentifySkill:
+    Type: SELF
+    Actions:
+      - message{m="You have gained the Identify skill!"} @Self
+      - addskill{s=IdentifySkill}
