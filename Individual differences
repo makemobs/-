@@ -1,0 +1,6 @@
+Skills:
+  RandomStats:
+    Type: SELF
+    Actions:
+      - modifydamage{a=add;m=%random(1, 5)%}
+      - modifyhealth{a=add;m=%random(10, 50)%}
