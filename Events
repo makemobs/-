@@ -1,0 +1,8 @@
+Events:
+  FirstLoginEvent:
+    Type: LOGIN
+    Conditions:
+      - chance{c=0.008}
+      - inRegion{r=SpawnArea}
+    Skills:
+      - callSkill{s=IdentifySkill} @Self
